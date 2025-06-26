@@ -9,6 +9,11 @@ import App1 from './componants/accordion/App1'
 import App2 from './componants/Tabscomp.jsx/App2'
 import DebounceSearch from './componants/DebounceSearch'
 import Starrating from './componants/Starrating'
+import VirtualScrollList from './componants/VirtualScrollList'
+import DragDropList from './componants/DragDropList'
+import TrafficLight from './componants/TrafficLight'
+import Tab from './componants/Tab_form/Tab'
+import Paggination from './componants/Paggination/PAggination'
 
 function App() {
   
@@ -21,7 +26,12 @@ function App() {
       {/* <App1/> */}
       {/* <App2/> */}
       {/* <DebounceSearch/> */}
-      <Starrating/>
+      {/* <Starrating/> */}
+      {/* <VirtualScrollList/> */}
+      {/* <DragDropList/> */}
+      {/* <TrafficLight/> */}
+      {/* <Tab/> */}
+      <Paggination/>
     </>
   )
 }
