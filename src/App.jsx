@@ -14,6 +14,7 @@ import DragDropList from './componants/DragDropList'
 import TrafficLight from './componants/TrafficLight'
 import Tab from './componants/Tab_form/Tab'
 import Paggination from './componants/Paggination/PAggination'
+import AutoComplete from './componants/Autocomplete_Search_bar/AutoComplete'
 
 function App() {
   
@@ -31,7 +32,8 @@ function App() {
       {/* <DragDropList/> */}
       {/* <TrafficLight/> */}
       {/* <Tab/> */}
-      <Paggination/>
+      {/* <Paggination/> */}
+      <AutoComplete/>
     </>
   )
 }
