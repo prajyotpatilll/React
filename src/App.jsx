@@ -15,6 +15,13 @@ import TrafficLight from './componants/TrafficLight'
 import Tab from './componants/Tab_form/Tab'
 import Paggination from './componants/Paggination/PAggination'
 import AutoComplete from './componants/Autocomplete_Search_bar/AutoComplete'
+import Extension from './componants/BrowerExtensionChallenge/Extension'
+import CanvasDraw from './componants/Canvas/CanvasDraw'
+import SimpleCanvas from './componants/Canvas/CanvasDraw'
+import LineCanvas from './componants/Canvas/CanvasDraw'
+import FreehandCanvas from './componants/Canvas/CanvasDraw'
+import TodoApp from './componants/TodoList/Todolist'
+
 
 function App() {
   
@@ -33,7 +40,10 @@ function App() {
       {/* <TrafficLight/> */}
       {/* <Tab/> */}
       {/* <Paggination/> */}
-      <AutoComplete/>
+      {/* <AutoComplete/> */}
+     {/* <Extension/> */}
+     {/* <FreehandCanvas/> */}
+     <TodoApp/>
     </>
   )
 }
